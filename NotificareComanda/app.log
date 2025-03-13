@@ -1,0 +1,72 @@
+2025-03-12 13:43:09,070 - ERROR - Eroare la conectare la baza de date în save_order()
+2025-03-12 14:45:41,879 - ERROR - Eroare la conectare la baza de date în save_order()
+2025-03-12 14:47:16,883 - ERROR - Eroare la conectare la baza de date în save_order()
+2025-03-12 14:56:06,368 - ERROR - Eroare la salvare comenzii 123: ('23000', "[23000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot insert the value NULL into column 'data_citit', table 'GMRO011P.dbo._comenzi'; column does not allow nulls. INSERT fails. (515) (SQLExecDirectW); [23000] [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (3621)")
+2025-03-12 14:59:09,127 - INFO - Comandã salvatã: 123 pentru consilierul Ion Popescu
+2025-03-12 14:59:30,258 - ERROR - Eroare la trimiterea emailului pentru comanda 123: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-03-12 15:04:41,835 - INFO - Comandã salvatã: 1234 pentru consilierul Ion Popescu
+2025-03-12 15:05:02,874 - ERROR - Eroare la trimiterea emailului pentru comanda 1234: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-03-12 15:08:45,363 - INFO - Comandã salvatã: 231 pentru consilierul Ion Popescu
+2025-03-12 15:09:06,410 - ERROR - Eroare la trimiterea emailului pentru comanda 231: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-03-12 15:22:38,611 - ERROR - Eroare la marcarea ca cititã a comenzii (1,: ('22018', "[22018] [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the nvarchar value '(1,' to data type int. (245) (SQLExecDirectW)")
+2025-03-12 15:23:48,396 - ERROR - Eroare la marcarea ca cititã a comenzii (2,: ('22018', "[22018] [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the nvarchar value '(2,' to data type int. (245) (SQLExecDirectW)")
+2025-03-12 15:25:29,574 - ERROR - Eroare la marcarea ca cititã a comenzii (3,: ('22018', "[22018] [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the nvarchar value '(3,' to data type int. (245) (SQLExecDirectW)")
+2025-03-12 15:27:21,687 - ERROR - Eroare la marcarea ca cititã a comenzii (2,: ('22018', "[22018] [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the nvarchar value '(2,' to data type int. (245) (SQLExecDirectW)")
+2025-03-12 15:27:42,557 - ERROR - Eroare la marcarea ca cititã a comenzii (2,: ('22018', "[22018] [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the nvarchar value '(2,' to data type int. (245) (SQLExecDirectW)")
+2025-03-12 15:39:48,737 - INFO - Comandã ID 1 marcatã ca cititã
+2025-03-12 15:49:38,116 - INFO - Comandã salvatã: 321 pentru consilierul Ion Popescu
+2025-03-12 15:49:59,167 - ERROR - Eroare la trimiterea emailului pentru comanda 321: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-03-12 15:57:23,413 - INFO - Comandã salvatã: 234 pentru consilierul Ion Popescu
+2025-03-12 15:57:44,459 - ERROR - Eroare la trimiterea emailului pentru comanda 234: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-03-12 16:00:48,794 - INFO - Comandã salvatã: 432 pentru consilierul Ion Popescu
+2025-03-12 16:01:09,835 - ERROR - Eroare la trimiterea emailului pentru comanda 432: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-03-12 16:10:07,858 - INFO - Comandã salvatã: 231 pentru consilierul Ion Popescu
+2025-03-12 16:10:28,908 - ERROR - Eroare la trimiterea emailului pentru comanda 231: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-03-13 09:56:37,642 - INFO - Comandã salvatã: 1232 pentru consilierul Ion Popescu
+2025-03-13 09:56:58,756 - ERROR - Eroare la trimiterea emailului pentru comanda 1232: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-03-13 09:57:20,699 - INFO - Comandã ID 2 marcatã ca cititã
+2025-03-13 10:19:54,257 - INFO - Comandã salvatã: 222 pentru consilierul Ion Popescu
+2025-03-13 10:20:15,301 - ERROR - Eroare la trimiterea emailului pentru comanda 222: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-03-13 10:22:00,139 - INFO - Comandã salvatã: 2223 pentru consilierul Ion Popescu
+2025-03-13 10:22:00,139 - ERROR - Eroare la salvare comenzii 2223: name 'send_email' is not defined
+2025-03-13 10:23:32,195 - INFO - Comandã salvatã: 333 pentru consilierul Ion Popescu
+2025-03-13 10:23:32,204 - ERROR - Eroare la trimiterea emailului pentru comanda 333: [Errno 11001] getaddrinfo failed
+2025-03-13 10:24:31,104 - INFO - Comandã salvatã: 322 pentru consilierul Ion Popescu
+2025-03-13 10:24:38,133 - ERROR - Eroare la trimiterea emailului pentru comanda 322: (535, b'5.7.8 Error: authentication failed: authentication failure')
+2025-03-13 10:25:10,942 - INFO - Comandã salvatã: 111 pentru consilierul Ion Popescu
+2025-03-13 10:25:10,950 - ERROR - Eroare la trimiterea emailului pentru comanda 111: [Errno 11001] getaddrinfo failed
+2025-03-13 10:26:10,565 - INFO - Comandã salvatã: wqw pentru consilierul Ion Popescu
+2025-03-13 10:26:11,593 - ERROR - Eroare la trimiterea emailului pentru comanda wqw: (535, b'5.7.8 Error: authentication failed: authentication failure')
+2025-03-13 10:27:07,239 - INFO - Comandã salvatã: wqw pentru consilierul Ion Popescu
+2025-03-13 10:27:07,240 - ERROR - Eroare la trimiterea emailului pentru comanda wqw: name 'SMTP_SERVER' is not defined
+2025-03-13 10:33:02,545 - INFO - Comandã salvatã: qqw pentru consilierul Ion Popescu
+2025-03-13 10:33:02,546 - ERROR - Eroare la trimiterea emailului pentru comanda qqw: name 'SMTP_SERVER' is not defined
+2025-03-13 10:35:32,888 - INFO - Comandã salvatã: ddsw pentru consilierul Ion Popescu
+2025-03-13 10:35:33,901 - ERROR - Eroare la trimiterea emailului pentru comanda ddsw: (535, b'5.7.8 Error: authentication failed: authentication failure')
+2025-03-13 10:43:25,319 - INFO - Comandã salvatã: fwef pentru consilierul Ion Popescu
+2025-03-13 10:43:26,525 - INFO - Email trimis pentru comanda fwef cãtre calin@carscenter.ro, calin@carscenter.ro
+2025-03-13 11:08:45,132 - INFO - Comandã salvatã: zzz pentru consilierul Calin Bucur
+2025-03-13 11:08:46,331 - INFO - Email trimis pentru comanda zzz cãtre calin@carscenter.ro, calin@carscenter.ro
+2025-03-13 11:08:49,760 - INFO - Email trimis pentru comanda zzz cãtre calin@carscenter.ro, calin@carscenter.ro
+2025-03-13 11:09:49,367 - INFO - Comandã salvatã: qqqq pentru consilierul Calin Bucur
+2025-03-13 11:09:50,345 - INFO - Email trimis pentru comanda qqqq cãtre calin@carscenter.ro, calin@carscenter.ro
+2025-03-13 11:09:53,278 - INFO - Email trimis pentru comanda qqqq cãtre calin@carscenter.ro, calin@carscenter.ro
+2025-03-13 11:15:21,545 - INFO - Comandã salvatã: eee pentru consilierul Calin Bucur
+2025-03-13 11:15:22,566 - INFO - Email trimis pentru comanda eee cãtre calin@carscenter.ro, calin@carscenter.ro
+2025-03-13 11:15:25,312 - INFO - Email trimis pentru comanda eee cãtre calin@carscenter.ro, calin@carscenter.ro
+2025-03-13 11:16:47,297 - INFO - Comanda ID 3 marcatã ca cititã
+2025-03-13 11:16:58,246 - INFO - Comanda ID 4 marcatã ca cititã
+2025-03-13 11:19:49,169 - INFO - Comanda ID 6 marcatã ca cititã
+2025-03-13 11:20:15,386 - INFO - Comanda ID 7 marcatã ca cititã
+2025-03-13 11:20:17,073 - INFO - Comanda ID 8 marcatã ca cititã
+2025-03-13 11:20:19,229 - INFO - Comanda ID 5 marcatã ca cititã
+2025-03-13 11:20:21,081 - INFO - Comanda ID 9 marcatã ca cititã
+2025-03-13 11:20:22,907 - INFO - Comanda ID 11 marcatã ca cititã
+2025-03-13 11:20:24,264 - INFO - Comanda ID 14 marcatã ca cititã
+2025-03-13 11:22:51,621 - INFO - Comanda ID 10 marcatã ca cititã
+2025-03-13 11:22:53,948 - INFO - Comanda ID 12 marcatã ca cititã
+2025-03-13 11:36:54,491 - INFO - Comandã salvatã: scxdsc pentru consilierul Calin Bucur
+2025-03-13 11:36:55,507 - INFO - Email trimis pentru comanda scxdsc cãtre calin@carscenter.ro, calin@carscenter.ro
+2025-03-13 11:36:58,387 - INFO - Email trimis pentru comanda scxdsc cãtre calin@carscenter.ro, calin@carscenter.ro
+2025-03-13 11:38:04,430 - INFO - Comanda ID 17 marcatã ca cititã
+2025-03-13 11:38:20,487 - INFO - Comanda ID 22 marcatã ca cititã

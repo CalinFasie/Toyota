@@ -1,0 +1,7 @@
+cod, cantitate, numar inmatriculare,pret, telefon,consilier
+
+antet
+id, data,numar inmatriculare, telefon, consilier
+
+detalii
+id_comanda, cod, denumire, cantitate
